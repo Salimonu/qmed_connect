@@ -1,6 +1,6 @@
 import { Helmet } from "react-helmet";
 
-function BuyAirtime() {
+function Contact() {
   return (
     <>
       <Helmet>
@@ -18,4 +18,4 @@ function BuyAirtime() {
   );
 }
 
-export default BuyAirtime;
+export default Contact;

@@ -6,7 +6,7 @@ export default function HowItWorks() {
   return (
     <>
       <div className="bg-blue-50 pt-4 pb-5">
-        <h2 className="mb-3 text-center text-2xl font-bold text-blue-900">
+        <h2 className="mt-6 mb-4 text-center text-3xl font-bold text-blue-900">
           How It Works
         </h2>
         <div className="grid justify-center gap-y-4 lg:grid-cols-2">

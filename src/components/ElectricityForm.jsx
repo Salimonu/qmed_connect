@@ -72,7 +72,7 @@ export default function ElectricityForm({ wallet, setWallet }) {
           <h1 className="heading-primary">Buy Electricity Unit</h1>
 
           <form className="form" action="" onSubmit={handleSubmit}>
-            <label className="label" for="phone">
+            <label className="label" htmlFor="phone">
               Phone Number:
             </label>
             <input
@@ -84,24 +84,7 @@ export default function ElectricityForm({ wallet, setWallet }) {
               required
             />
 
-            <label className="label" for="network">
-              Select Network:
-            </label>
-            <select
-              name="network"
-              id="network"
-              value={network}
-              onChange={(e) => setNetwork(e.target.value)}
-              required
-            >
-              <option value="">--Select Network--</option>
-              <option value="MTN">MTN</option>
-              <option value="GLO">GLO</option>
-              <option value="Airtel">Airtel</option>
-              <option value="9mobile">9mobile</option>
-            </select>
-
-            <label className="label" for="amount">
+            <label className="label" htmlFor="amount">
               Amount (#):
             </label>
             <input
@@ -110,6 +93,18 @@ export default function ElectricityForm({ wallet, setWallet }) {
               value={amount}
               onChange={(e) => setAmount(e.target.value)}
               placeholder="e.g. 100"
+              required
+            />
+
+            <label className="label" htmlFor="meter">
+              Meter Number:
+            </label>
+            <input
+              type="number"
+              id="meter"
+              placeholder="e.g. 143756432349"
+              value={phone}
+              onChange={(e) => setPhone(e.target.value)}
               required
             />
 

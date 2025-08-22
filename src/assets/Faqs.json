@@ -1,0 +1,42 @@
+[
+  {
+    "question": "Q1. How do I buy airtime or data online?",
+    "answer": "Select your network, enter your phone number, choose an amount, and pay securely. Delivery is instant after payment."
+  },
+  {
+    "question": "Q2. Which networks can I recharge?",
+    "answer": "We support MTN, Airtel, Glo, and 9mobile for airtime and data top-ups."
+  },
+  {
+    "question": "Q3. How fast is delivery?",
+    "answer": "Airtime and data are delivered instantly, usually within seconds."
+  },
+  {
+    "question": "Q4. What payment options are available?",
+    "answer": "We accept debit/credit cards, bank transfers, and payment gateways like Monnify and Xendify."
+  },
+  {
+    "question": "Q5. Can I top up for someone else?",
+    "answer": "Yes, simply enter their phone number at checkout."
+  },
+  {
+    "question": "Q6. Do you offer discounts?",
+    "answer": "Yes, we offer discounted data plans through our API call."
+  },
+  {
+    "question": "Q7. What if I don’t get my recharge?",
+    "answer": "Contact support with your transaction ID, and we’ll resolve it quickly."
+  },
+  {
+    "question": "Q8. Is payment secure?",
+    "answer": "Yes, all payments are processed through encrypted, secure gateways."
+  },
+  {
+    "question": "Q9. Do you sell bulk data or airtime?",
+    "answer": "Yes, bulk purchases are available at discounted rates. Contact sales for details."
+  },
+  {
+    "question": "Q10. How can I reach customer support?",
+    "answer": "Via live chat, WhatsApp, email, or our Contact page — available 24/7."
+  }
+]

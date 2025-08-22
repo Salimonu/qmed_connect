@@ -1,13 +1,15 @@
 import VTU_illustration from "../assets/img/VTU_illustration.png";
+import { BsHouseHeartFill } from "react-icons/bs";
 
 function Hero() {
   return (
     <div>
-      <section className="h-{80vh} grid items-center gap-12 bg-blue-100 p-8 md:grid-cols-2">
+      <div className="h-{80vh} grid items-center gap-12 bg-blue-200 p-8 md:grid-cols-2">
         <div>
           <div className="w-{40%} my-8">
-            <p className="inline-block rounded-md bg-blue-400 px-2.5 py-1 text-xl font-semibold text-white">
-              Fast, secure & Reliable Virtual Top-Up Services
+            <p className="up inline-block rounded-md bg-blue-400 px-2.5 py-1 text-xl font-semibold text-white">
+              <BsHouseHeartFill size={28} className="inline" /> Fast, secure &
+              Reliable Virtual Top-Up Services
             </p>
             <h1
               data-aos="fade-right"
@@ -15,10 +17,10 @@ function Hero() {
             >
               Recharge Airtime, Data & Pay Bills Instantly!
             </h1>
-            <p className="my-3 text-xl">
-              QMED Connect makes it easy to recharge airtime, data, and utility
-              bills instantly—anytime, anywhere. Experience seamless
-              transactions with just a few taps!
+            <p className="my-3 text-2xl leading-8 text-gray-800">
+              Welcome to QMED CONNECT — your trusted platform for fast and
+              affordable airtime top-up, data bundles, cable TV subscription,
+              electricity bills, exam pins, and bulk SMS services.
             </p>
           </div>
           <a
@@ -41,7 +43,7 @@ function Hero() {
             alt="VTU_illustration"
           />
         </div>
-      </section>
+      </div>
     </div>
   );
 }

@@ -72,7 +72,7 @@ export default function AirtimeForm({ wallet, setWallet }) {
           <h1 className="heading-primary">Data Recharge</h1>
 
           <form className="form" action="" onSubmit={handleSubmit}>
-            <label className="label" for="phone">
+            <label className="label" htmlFor="phone">
               Phone Number:
             </label>
             <input
@@ -84,7 +84,7 @@ export default function AirtimeForm({ wallet, setWallet }) {
               required
             />
 
-            <label className="label" for="network">
+            <label className="label" htmlFor="network">
               Select Network:
             </label>
             <select
@@ -101,7 +101,7 @@ export default function AirtimeForm({ wallet, setWallet }) {
               <option value="9mobile">9mobile</option>
             </select>
 
-            <label className="label" for="amount">
+            <label className="label" htmlFor="amount">
               Amount (#):
             </label>
             <input

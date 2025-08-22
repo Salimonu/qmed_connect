@@ -15,16 +15,17 @@ button:hover {
 }
 
 .container {
-  background: white;
+  background: #f0f4ff;
   padding: 20px 30px;
   border-radius: 8px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  max-width: 400px;
+  max-width: 600px;
   width: 100%;
 }
 
-.fade-up {
-  animation: fadeUp 1s ease-out forwards;
+.footer-logo {
+  width: 20rem;
+  height: auto;
 }
 
 .form {
@@ -38,10 +39,6 @@ button:hover {
   display: flex;
   justify-content: center;
   padding: 15px;
-}
-
-.footer-container {
-  background-color: #94beeb;
 }
 
 .heading-primary {
@@ -77,15 +74,12 @@ button {
   color: green;
 }
 
-@keyframes fadeUp {
-  from {
-    opacity: 0;
-    transform: translateY(30px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
+.up {
+  transition: all 0.5s ease;
+}
+
+.up:hover {
+  transform: translateY(-10px) scale(1.15);
 }
 
 @keyframes pulsate {

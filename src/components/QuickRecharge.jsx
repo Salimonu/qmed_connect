@@ -33,10 +33,11 @@ export function Tab() {
     <>
       <div className="flex justify-center gap-4 bg-blue-50">
         <button onClick={() => setActiveTab("AirtimeForm")}>Buy Airtime</button>
+        <button onClick={() => setActiveTab("DataForm")}>Buy Data</button>
         <button onClick={() => setActiveTab("CableForm")}>
           Cable Subscription
         </button>
-        <button onClick={() => setActiveTab("DataForm")}>Buy Data</button>
+
         <button onClick={() => setActiveTab("ElectricityForm")}>
           Buy Electricity
         </button>
